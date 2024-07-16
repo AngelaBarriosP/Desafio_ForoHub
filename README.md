@@ -1,23 +1,21 @@
-<h1 align="center"> Presentación del primer desafío BackEnd del programa Oracle Next Education </h1>
+<h1 align="center"> Presentación del tercer desafío BackEnd del programa Oracle Next Education </h1>
 
-Conversor de monedas con tasas de cambio actualizadas en tiempo real
+Foro Hub
 
 <h2>Descripción del proyecto:</h2>
-En este proyecto ponemos en práctica las bases fundamentales del lenguaje de programación Java (en particular, los conceptos de encapsulamiento, herencia, polimorfismo y abstracción) para crear un programa que permite al usuario la conversión entre monedas usando la tasa de cambio en tiempo real. El programa se estructura de forma modular y se conecta con Exchange Rate API para extraer la tasa de conversión entre las monedas elegidas por el usuario dentro del menú de opciones disponible. 
+En este proyecto creé una API Rest con JAVA y SPRING BOOT que consta de una plataforma de cursos online donde los estudiantes pueden realizar sus preguntas a través de un foro, como apoyo a su proceso de aprendizaje de los contenidos de los cursos. Todas las dudas (topicos) que envíen los estudiantes son guardados en una base de datos en MySQL, a partir es esta data se podrán realizar las operaciones CRUD (CREATE, READ, UPDATE, DELETE). El usuario podrá: Crear un nuevo tópico, Mostrar todos los tópicos creados, Mostrar un tópico específico, Actualizar un tópico y Eliminar un tópico.
 
+Además
 <h2>Funcionalidades:</h2>
-En este programa puedes:
+En esta API los estudiantes podrán:
 <ul>
-  <li>Seleccionar la conversión entre las monedas disponibles de acuerdo con el menú de monedas de origen y destino, que se muestra así:</li>
-  ![image](https://github.com/AngelaBarriosP/D1_ConversorDeMonedas/assets/112993987/9033c18c-d6bf-4d59-a960-ff73f4d4d2e9)
-
-  <li>Seleccionar el valor o cantidad monetaria que desea convertir</li>
-  <li>Como resultado, obtendrá la conversión de esa cantidad de una moneda a otra de acuerdo con la opción seleccionada inicialmente</li>
-  ![image](https://github.com/AngelaBarriosP/D1_ConversorDeMonedas/assets/112993987/1577e65b-b8bb-4181-8ded-aa0a4545fe30)
-
+  <li>API con rutas implementadas siguiendo las mejores prácticas del modelo REST</li>
+  <li>Validaciones realizadas según las reglas de negocio</li>
+  <li>Implementación de una base de datos relacional para la persistencia de la información</li>
+  <li>Servicio de autenticación/autorización para restringir el acceso a la información</li>
 </ul>
 
 <h2>Tecnologías utilizadas:</h2>
-Java, Exchange Rate API
+Java, Spring Boot, Maven. Se usaron las dependencias: Lombok, Spring Web, Spring Boot DevTools, Spring Data JPA, Flyway Migration, MySQL Driver, Validation, Spring Security
 
 Hecho por: Luz Angela Barrios Pulido
